@@ -12,7 +12,7 @@ You have one model PokemonCard. Build the model with:
 - name (string)
 - price (integer)
 - hit_points (integer)
-- type (string)
+- card_type (string)
 - is_holographic (boolean)
 
 ## Validations
@@ -27,7 +27,7 @@ Once the model has been built, add in these validations:
 
 - `hit_points` must be a number between 0 and 200
 
-- `type` cannot be an empty string
+- `card_type` cannot be an empty string
 
 ## HARDMODE Validations
 
@@ -35,7 +35,7 @@ Once the model has been built, add in these validations:
 
 - `hit_points` must be divisible by 10 (so 20,30,40,etc.)
 
-- `type` must be one of the following: `Grass`, `Fire`, `Water` (you can add
+- `card_type` must be one of the following: `Grass`, `Fire`, `Water` (you can add
   more Pokemon types if you know them)
 
 - `is_holographic` must be `True` if the Pokemon's name is `Pikachu`
